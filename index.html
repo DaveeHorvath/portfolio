@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <ul class="navlist">
+            <li class="navitem"><a href="#landing">Home</a></li>
+            <li class="navitem"><a href="#whoami">Who am I?</a></li>
+            <li class="navitem"><a href="#projects">Coding Shenanigans</a></li>
+            <li class="navitem"><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="landing">
+            <div>
+                <p class="backtext">Hello</p>
+                <p class="textbox landingtext">
+                    This is a portfolio page created by me, David Horvath. It is supposed to be a showcase of my projects and
+                    skills. I am not a webdeveloper by any reach, this page has been created with very active googleing and is 
+                    completely LLM free.
+                </p>
+                <div class="funnycard" data-tilt data-tilt-scale="1.1" data-tilt-reverse="true">
+                    <h3 class="cardinside cardtitle">David Horvath</h3>
+                    <hr class="cardline">
+
+                        <p class="cardpart cardinside"><a class="cardlink" href="#Education">> Student @ Hive Helsinki</a></p>
+                        <p class="cardpart cardinside"><a class="cardlink" href="#CodingShenanigans">> Aspiering Coder</a></p>
+                        <p class="cardpart cardinside"><a class="cardlink" href="#CTF">> CTF Enthusiast</a></p>
+                        <p class="cardpart cardinside"><a class="cardlink" href="#">> putchar enjoyer</a></p>
+
+                    <hr class="cardline">
+                    <div class="cardinside cardsocials">
+                        <a href="https://www.linkedin.com/in/david-horvath-9732082b1/" class="cardsocialicon">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="https://github.com/daveekun" class="cardsocialicon">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a href="https://app.hackthebox.com/profile/1751580" class="cardsocialicon">
+                            <ion-icon name="cube-outline"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="whoami">
+            <p class="backtext">$whoami</p>
+            <div class="whocontent">
+            <div class="whopart" data-tilt data-tilt-scale="1" data-tilt-max="6" data-tilt-speed="500" data-tilt-glare data-tilt-max-glare="0.1">
+                <h3 class="whotitle">Who am I?</h3>
+                <p class="whotext">
+                    My name is David and I am a 19 year old coder from Hungary. Currently a student @Hive Helsinki, 
+                    but actively looking for a Junior Position or a Startup to join.
+                    <hr class="cardline">
+                </p>
+                <p class="whotext">
+                    I have spendt the past years developing, creating and solving problems.
+                    From national coding competitions through school assignments to personal projects 
+                    I have tried a lot of different coding disciplines. With a passion for mathematics 
+                    and improvement am looking for another step in my coding journey where I can apply
+                    the skills I have been working for.
+                </p>
+            </div>
+            <div class="whopart" data-tilt data-tilt-scale="1" data-tilt-max="6" data-tilt-speed="500" data-tilt-glare data-tilt-max-glare="0.1">
+                <h3 class="whotitle">Skills</h3>
+                <ul class="whotext whoskills">
+                    <li><b class="whomore">Coding languages:</b>
+                        <ul>
+                            <li>C 4/5</li>
+                            <li>C++ 3/5</li>
+                            <li>C# for Unity 3/5</li>
+                            <li>React and JS 1/5</li>
+                            <li>Python (mostly scripts) 4/5</li>
+                            <li>Bash scripting 2/5</li>
+                        </ul>
+                    </li>
+                    <li><b class="whomore">Almost languages:</b>
+                        <ul>
+                            <li>Html 2/5</li>
+                            <li>CSS 2/5</li>
+                        </ul>
+                    </li>
+                    <li>Version control with Git and Github 3/5</li>
+                    <li>Working towards CPTS from Hackthebox</li>
+                    <li>Softskills 4/5</li>
+                    <li><b class="whomore">Languages:</b>
+                        <ul>
+                            <li>English - C1</li>
+                            <li>German - C1</li>
+                            <li>Hungarian - Native</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </section>
+        <section id="projects">
+            <p class="backtext">Projects</p>
+            <div class="projects">
+                <div class="title">Coding Shenanigans</div>
+                <div class="projecttitle" id="projecttitle">projecttitle</div>
+                <div class="projectlist">
+                    <ul>
+                        <li onclick="set(0)" class="clickable current" id="0">FDF</li>
+                        <li onclick="set(1)" class="clickable" id="1">PushSwap</li>
+                        <li onclick="set(2)" class="clickable" id="2">RayTracer</li>
+                        <li onclick="set(3)" class="clickable" id="3">Minishell</li>
+                        <li onclick="set(4)" class="clickable" id="4">Writeups</li>
+                        <li onclick="set(5)" class="clickable" id="5">Game - WIP</li>
+                        <li onclick="set(6)" class="clickable" id="6">Python</li>
+                        <li onclick="set(7)" class="clickable" id="7">C++ Modules</li>
+                        <li onclick="set(8)" class="clickable" id="8">Rendering - WIP</li>
+                    </ul>
+                </div>
+                <div class="projectdesc" id="projectdesc">projectdesc</div>
+                <div class="projectpics" id="projectpics"></div>
+                <div class="github">
+                    <a href="https://github.com/daveekun" class="cardsocialicon">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+                <div class="left" id="left" onclick="left()">
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+                <div class="right" id="right" onclick="right()">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <div class="projectgh" id="projectgh">projectgh</div>
+            </div>
+        </section>
+        <section id="education">
+            <p class="backtext" style="z-index: 1;">Education</p>
+            <div>
+                <div class="timeline"></div>
+                <div class="third Highschool">
+                    <div class="dot"></div>
+                    <div class="timelinetext">
+                        <h3>Highschool (2019-2023)</h3>
+                        <p>
+                            Highschool is a great trainingground and a great shared experience for many. It usually results in 
+                            great general knowledge. I have been a student of one of Hungaries top schools and it provided me with 
+                            the curiosity and drive to learn that helped me get my first internship at a local webdevelopment company 
+                            where I was learning for 2 weeks. In my highschool years I also participated in multiple national competitions 
+                            mostly in mathematics and programming. For example: top 25 at the national highschool coding competition (OKTV), top 1 
+                            at a multidisciplinary math and comp-sci competition (MaTech), top 30 at the highschool mathematics competition (OKTV)
+                        </p>
+                    </div>
+                </div>
+                <div class="third Hive">
+                    <div class="dot"></div>
+                    <div class="timelinetext">
+                        <h3>Hive Helsinki (2023 October - )</h3>
+                        <p>
+                            Hive is a <a href="https://www.42network.org">42Network</a> school based in Helsinki. They provide education to people from all types of backgrounds, 
+                            teaching them how to be coders. The school this far has a 100% employment rate after completion and has alumni 
+                            all over the Helsinki area. It is a self paced program, and is structured around C and C++, but the studies also 
+                            include some networking and webdevelopment. The student body is also really active in other areas as well, this 
+                            includes a Finland top 5 CTF team (AuroraSwarm/Nightwatchers on <a href="https://ctftime.org/stats/2024/FI">CTFTime</a>) which I am part of. 
+                            There was another event where I am proud of my achivements, which is <a href="https://nki.gov.hu/rendezvenyek/hcsc/">HCSC</a> which is the biggest CTF competitions in Hungary, where I got top 10 
+                            in the junior category and top 25 in the all around scoring.
+                            <br><a href="https://www.hive.fi/en/">Read more here</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="third Future">
+                    <div class="dot"></div>
+                    <div class="timelinetext">
+                        <h3>Future</h3>
+                        <p>
+                            I am currently in the application process for university in Helsinki. Hackthebox has an amazing academy, which 
+                            offers training to students. The current goal is to attain their Certified Penetration Testing Specalist cert. 
+                            Also finishing the project marked as work-in-progress on the projects section is a clear path to follow. My learning 
+                            and coding journey will continue every day and I hope to become a better developer as a result. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="tilt.js"></script>
+    <script src="carousel.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
